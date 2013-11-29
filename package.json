@@ -1,18 +1,24 @@
 {
   "name": "windows-service-manager",
   "version": "0.1.0",
-  "description": "windows-service-manager",
-  "main": "hello-world-server.js",
+  "description": "A node module to query, stop (optionally forcefully) and start Windows services",
+  "main": "windows-service-manager.js",
   "scripts": {
-    "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
+    "test": "echo \"no tests are included in this package\" && exit 1",
+    "sample": "sample.js"
   },
-  "repository": "",
   "keywords": [
-    "Node.js",
-    "Eclipse",
-    "Nodeclipse"
+    "Windows",
+    "Service"
   ],
-  "author": "Tony BenBrahim",
+  "homepage": "https://github.com/tbenbrahim/windows-service-manager",
+  "bugs": "https://github.com/tbenbrahim/windows-service-manager/issues",
+  "repository": {
+	"type" : "git",
+	"url" : "https://github.com/tbenbrahim/windows-service-manager.git"
+  },
+  "os" : [ "win32" ],
+  "author": "Tony BenBrahim <tony.benbrahim@gmail.com",
   "license": "MIT",
   "readmeFilename": "README.md"
 }
