@@ -58,7 +58,7 @@ var parseNextEntry = function(linesEnum) {
 
 
 exports.queryServices = function(callback) {
-	exec('sc queryex', function(error, stdout, stderr) {
+	exec('sc queryex state= all', function(error, stdout, stderr) {
 		if (error) {
 			callback(error, null);
 		} else {
