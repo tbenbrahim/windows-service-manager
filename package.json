@@ -1,6 +1,6 @@
 {
   "name": "windows-service-manager",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A node module to query, stop (optionally forcefully) and start Windows services",
   "main": "windows-service-manager.js",
   "scripts": {
